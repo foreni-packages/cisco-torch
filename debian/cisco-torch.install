@@ -1,0 +1,12 @@
+debian/kali-cisco-torch.desktop usr/share/applications/
+cisco-torch.pl usr/bin/
+community.txt usr/share/cisco-torch/
+fingerprint.db usr/share/cisco-torch/
+include/ usr/share/cisco-torch/
+password.txt usr/share/cisco-torch/
+scan.log usr/share/cisco-torch/
+tfingerprint.db usr/share/cisco-torch/
+tftproot/ usr/share/cisco-torch/
+torch.conf etc/cisco-torch/
+users.txt usr/share/cisco-torch/
+

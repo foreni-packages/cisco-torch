@@ -1,0 +1,27 @@
+Source: cisco-torch
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: N/A
+Vcs-Git: ssh://git@git.kali.org/packages/cisco-torch.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/cisco-torch.git;a=summary
+
+Package: cisco-torch
+Architecture: all
+Depends: ${misc:Depends}, perl, libnet-telnet-perl, libnet-ssh-perl
+Description: Cisco device scanner
+ The main feature that makes cisco-torch different from 
+ similar tools is the extensive use of forking  to launch 
+ multiple scanning processes on the background for maximum 
+ scanning efficiency. Also, it uses several methods of 
+ application layer fingerprinting simultaneoulsy, if needed.
+ We wanted something fast to discover remote Cisco hosts 
+ running Telnet, SSH, Web, NTP, TFTP and SNMP services and 
+ launch dicitionary attacks against the services discovered, 
+ including SNMP community attack (you would like the 
+ community.txt list :-) and TFTP servers (configuration
+ file name bruteforcing with following config leeching). The 
+ tool can also get device configurationfiles automatically 
+ if SNMP RW community is found.
