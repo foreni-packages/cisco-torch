@@ -10,7 +10,7 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/cisco-torch.git;a=summary
 
 Package: cisco-torch
 Architecture: all
-Depends: ${misc:Depends}, perl, libnet-telnet-perl, libnet-ssh-perl
+Depends: ${misc:Depends}, perl, libnet-telnet-perl, libnet-ssh2-perl, libnet-snmp-perl
 Description: Cisco device scanner
  The main feature that makes cisco-torch different from 
  similar tools is the extensive use of forking  to launch 
