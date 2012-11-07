@@ -1,3 +1,9 @@
+cisco-torch (0.4b-1kali1) kali; urgency=low
+
+  * Kali Version
+
+ -- dookie <dookie@kali.org>  Wed, 07 Nov 2012 16:41:51 -0700
+
 cisco-torch (0.4b-1) kali; urgency=low
 
   * Initial release 
