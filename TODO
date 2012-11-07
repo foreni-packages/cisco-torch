@@ -1,0 +1,17 @@
+Check for ECHO port for FX IOSniff attack against IOS 11.x
+
+Finger check (isn't it "fingerprinting" ? :-)
+
+More Cisco vulnerabilities implemented for automated search.
+
+Using DON'T as well as DO for Telnet fingerprinting. 
+
+More Telnetd fingerprints in fingerprints.db
+
+Fingerprinting Cisco devices on lower layers.
+
+Windows package (with stripped down Cygwin for those, who don't have it).
+
+GUI (not necessary, but nice).
+
+More BUG fixing ;)

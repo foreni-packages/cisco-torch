@@ -1,0 +1,33 @@
+Version 0.4 beta - date 11/03/2005
+++++++++++++++++
+
+TFTP scanning, old IOS fingerprinting, config name bruteforcing and 
+config leeching via both TFTP and SNMP is added.
+More highly relevant SNMP communities on the list.
+
+Version 0.3 beta - date 22/02/2005
+++++++++++++++++
+
+Significant code optimisations and improvements
+CIDR notations now taken in input properly
+More telnet fingerprints added (thanks to Marcel van Dorp for submissions)
+
+
+Version 0.2 beta - date 02/02/2005
+++++++++++++++++
+
+SNMP support enabled
+SNMP bruteforcing enabled
+NTP fingerprinting enabled
+Web login bruteforcing enabled
+SSL support enabled
+SSL bruteforcing enabled
+Loads of  bugs fixed
+Cleaned-up interface 
+Some keys have changed for the users comfort
+
+
+Version 0.1 alpa - date 26/01/2005
+++++++++++++++++
+
+Empty for the 0.1 alpha. What did you expect ? :-)

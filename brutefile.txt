@@ -1,0 +1,8 @@
+cisconet.cfg
+router-confg
+startup-config
+private-config 
+ifIndex-table 
+persistent-data 
+router.cfg
+ciscortr.cfg
