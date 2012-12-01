@@ -1,3 +1,9 @@
+cisco-torch (0.4b-1kali2) kali; urgency=low
+
+  * Updated desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 01 Dec 2012 07:45:38 -0500
+
 cisco-torch (0.4b-1kali1) kali; urgency=low
 
   * Kali Version
