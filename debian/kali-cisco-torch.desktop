@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=cisco-torch
-Encoding=UTF-8
-Exec=sh -c "cisco-torch.pl;sudo -s"
-Icon=kali-menu.png
-StartupNotify=false
-Terminal=true
-Type=Application
-Categories=06-01-cisco-attacks;02-01-cisco-tools;01-12-snmp-analysis;
