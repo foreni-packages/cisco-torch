@@ -1,4 +1,3 @@
-cisco-torch.pl usr/bin/
 community.txt usr/share/cisco-torch/
 fingerprint.db usr/share/cisco-torch/
 include/ usr/share/cisco-torch/

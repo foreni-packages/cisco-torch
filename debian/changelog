@@ -1,3 +1,9 @@
+cisco-torch (0.4b-1kali4) kali; urgency=low
+
+  * Edited install to fix usage output (Closes: 0001254)
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 20 May 2014 11:59:24 -0600
+
 cisco-torch (0.4b-1kali3) kali; urgency=low
 
   * Removed desktop file

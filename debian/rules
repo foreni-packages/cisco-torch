@@ -11,3 +11,7 @@
 
 %:
 	dh $@ 
+
+override_dh_auto_install:
+	dh_installdirs
+	install cisco-torch.pl $(CURDIR)/debian/cisco-torch/usr/bin/cisco-torch
