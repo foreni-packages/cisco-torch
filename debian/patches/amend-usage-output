@@ -7,8 +7,8 @@ Patched Banner.pm to display the proper binary name
  {
 -	print( " version $version\nusage: ./cisco-torch.pl <options> <IP,hostname,network>\n\n");
 -	print("or: ./cisco-torch.pl <options> -F <hostlist>\n\n");
-+	print( " version $version\nusage: ./cisco-torch <options> <IP,hostname,network>\n\n");
-+	print("or: ./cisco-torch <options> -F <hostlist>\n\n");
++	print( " version $version\nusage: cisco-torch <options> <IP,hostname,network>\n\n");
++	print("or: cisco-torch <options> -F <hostlist>\n\n");
  	print("Available options:\n");
  	print("-O <output file>\n");
  	print("-A\t\tAll fingerprint scan types combined\n");
@@ -20,28 +20,10 @@ Patched Banner.pm to display the proper binary name
 -	print("\t\t./cisco-torch.pl -s -b -F sshtocheck.txt\n");
 -        print("\t\t./cisco-torch.pl -w -z 10.10.0.0\/16\n");
 -	print("\t\t./cisco-torch.pl -j -b -g -F tftptocheck.txt\n");
-+	print("examples:\t./cisco-torch -A 10.10.0.0\/16\n");
-+	print("\t\t./cisco-torch -s -b -F sshtocheck.txt\n");
-+        print("\t\t./cisco-torch -w -z 10.10.0.0\/16\n");
-+	print("\t\t./cisco-torch -j -b -g -F tftptocheck.txt\n");
++	print("examples:\tcisco-torch -A 10.10.0.0\/16\n");
++	print("\t\tcisco-torch -s -b -F sshtocheck.txt\n");
++        print("\t\tcisco-torch -w -z 10.10.0.0\/16\n");
++	print("\t\tcisco-torch -j -b -g -F tftptocheck.txt\n");
  }
  
  sub banner
-@@ -32,7 +32,7 @@ sub banner
- 	log_print("###############################################################\n", "c" );
- 	log_print("#   Cisco Torch Mass Scanner  $version                 #\n", "c" );
-         log_print("#   Becase we need it...                                      #\n", "c" );
--	log_print("#   http://www.arhont.com/cisco-torch.pl                      #\n", "c" );
-+	log_print("#   http://www.arhont.com/cisco-torch                      #\n", "c" );
- 	log_print("###############################################################\n", "c" );
- 	log_print( "\n", "c" );
- }
-@@ -42,7 +42,7 @@ sub banner_end
- 	log_print("###############################################################\n", "c" );
- 	log_print("#   Cisco Torch Mass Scanner  $version                 #\n", "c" );
-         log_print("#   ALL scan is done                                         #\n", "c" );
--	log_print("#   http://www.arhont.com/cisco-torch.pl                      #\n", "c" );
-+	log_print("#   http://www.arhont.com/cisco-torch                      #\n", "c" );
- 	log_print("###############################################################\n", "c" );
- 	log_print( "\n", "c" );
- }
